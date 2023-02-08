@@ -1,0 +1,52 @@
+.section-3 {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #db545a;
+}
+
+.wrapperSection-3 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+
+.section-3__header {
+  color:#f1c50e;
+}
+
+.card {
+  background-color: white;
+  width:25%;
+  position: relative;
+  padding:0 30px 32px;
+  border-radius: 15px;
+  margin-top
+}
+
+.card__circle {
+  position: absolute;
+  display: flex;
+  top:0;
+  left:0;
+  background-color: #f1c50e;
+  border-radius: 100px;
+  width:94px;
+  height:94px;
+  justify-content: center;
+  align-items: center;
+}
+
+.card__icon {
+  box-sizing: border-box;
+  width: 47px;
+  height: 47px;
+}
+
+.card__button {
+  background-color: #f1c50e;
+}
+
+.card__link {
+  color:#db545a;
+}

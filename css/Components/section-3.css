@@ -1,40 +1,69 @@
 .section-3 {
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding:60px 30px 60px;
   background-color: #db545a;
 }
 
 .wrapperSection-3 {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
+  display: grid;
+  position: relative;
+  margin-top:74px;
+  grid-gap: 60px;
+  grid-template-columns: calc(33.33% - 40px) calc(33.33% - 40px) calc(33.33% - 40px);
 }
 
-
 .section-3__header {
-  color:#f1c50e;
+  font-family: 'Roboto', sans-serif;
+  color: #f1c50e;
+  margin:0;
+  text-align: center;
+  font-size: 60px;
+  line-height: calc(60px * 1.1);
+}
+
+.section-3__paragraph {
+  color:white;
+  text-align: center;
+  margin:9px 0 0;
+  font-size: 20px;
+  line-height: calc(20px*1.6);
 }
 
 .card {
+  display: flex;
+  flex-direction: column;
   background-color: white;
-  width:25%;
   position: relative;
   padding:0 30px 32px;
   border-radius: 15px;
-  margin-top
 }
 
 .card__circle {
   position: absolute;
   display: flex;
-  top:0;
-  left:0;
+  top:-24px;
+  left: calc(50% - 47px);
   background-color: #f1c50e;
   border-radius: 100px;
   width:94px;
   height:94px;
   justify-content: center;
   align-items: center;
+}
+
+.card__header {
+  margin: 94px 0 0;
+  text-align: center;
+  color: #db545a;
+  font-size: 20px;
+  font-family: 'Raleway',SansSerif;
+  line-height: calc(20px * 1.2);
+}
+
+.card__paragraph {
+  margin: 20px 0 20px;
+  font-size: 18px;
+  text-align: center;
+  line-height: calc(18px * 1.6);
 }
 
 .card__icon {
@@ -44,7 +73,14 @@
 }
 
 .card__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #f1c50e;
+  margin: auto auto 0;
+  border-radius: 50px;
+  width: 104px;
+  height: 42px;
 }
 
 .card__link {

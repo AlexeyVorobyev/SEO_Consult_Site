@@ -17,6 +17,11 @@
 
 .page {
   font-family: 'Open Sans', sans-serif;
-  max-width: 1200px;
   margin: auto;
+}
+
+.restrictionWide {
+  max-width: 1200px;
+  margin:auto;
+  position: relative;
 }

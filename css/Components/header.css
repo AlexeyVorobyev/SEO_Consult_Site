@@ -30,8 +30,21 @@
 .navigation__link {
   font-size: 20px;
   text-decoration: none;
+  color: black;
+}
+
+.navigation__link:active {
+
+}
+
+.navigation__link:hover {
+  color: #db545a;
 }
 
 .navigation__link_active {
   color:#1f8de6;
+}
+
+.navigation__link_active:hover {
+  color: #1f8de6;
 }

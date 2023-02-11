@@ -32,8 +32,17 @@
   letter-spacing: 1px;
   font-size: 48px;
   font-family: 'Montserrat', sans-serif;
-  margin-top:50px;
+  margin:50px 0 0;
   color:#db545a;
+  font-weight: 700;
+}
+
+.containerSection-1__paragraph {
+  color:#db545a;
+  font-size: 20px;
+  font-weight:600;
+  line-height: calc(20px*1.6);
+  margin:33px 0 0;
 }
 
 .buttonSection-1 {
@@ -56,14 +65,20 @@
   text-decoration: none;
 }
 
+.buttonSection-1:hover {
+  background-color: #db545a;
+}
+
 .containerSection-1_second {
   display: flex;
   padding: 20px 40px;
   align-items: center;
 }
 
+.buttonSection-1__link:hover {
+  color: #f1c50e;
+}
+
 .containerSection-1__image {
   width: 100%;
 }
-
-

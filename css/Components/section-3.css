@@ -8,7 +8,7 @@
   position: relative;
   margin-top:74px;
   grid-gap: 60px;
-  grid-template-columns: calc(33.33% - 40px) calc(33.33% - 40px) calc(33.33% - 40px);
+  grid-template-columns: repeat(3,1fr);
 }
 
 .section-3__header {
@@ -72,12 +72,18 @@
   height: 47px;
 }
 
+
+
 .card__button {
   background-color: #f1c50e;
   margin: auto auto 0;
   border-radius: 50px;
   width: 104px;
   height: 42px;
+}
+
+.card__button:hover {
+  background-color: #db545a;
 }
 
 .card__link {
@@ -92,4 +98,8 @@
   letter-spacing: 1px;
   color:#db545a;
   text-decoration: none;
+}
+
+.card__button:hover .card__link{
+  color: #f1c50e;
 }

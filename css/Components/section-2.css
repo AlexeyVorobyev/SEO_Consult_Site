@@ -65,6 +65,10 @@
   height:63px;
 }
 
+.buttonSection-2:hover {
+  background-color: #db545a;
+}
+
 .buttonSection-2__link {
   width: inherit;
   height: inherit;
@@ -76,4 +80,8 @@
   font-size: 16px;
   letter-spacing: 3px;
   color:#db545a;
+}
+
+.buttonSection-2__link:hover {
+  color: #f1c50e;
 }

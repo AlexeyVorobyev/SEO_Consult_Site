@@ -8,7 +8,7 @@
   position: relative;
   margin-top:41px;
   grid-gap: 16px;
-  grid-template-columns: calc(25% - 12px) calc(25% - 12px) calc(25% - 12px) calc(25% - 12px);
+  grid-template-columns: repeat(4,1fr);
 }
 
 .section-5__header {

@@ -4,9 +4,10 @@
 }
 
 .wrapperSection-5 {
+  max-width: 1200px;
   display: grid;
   position: relative;
-  margin-top:41px;
+  margin:41px auto 0;
   grid-gap: 16px;
   grid-template-columns: repeat(4,1fr);
 }
@@ -100,6 +101,7 @@
 .socialLinks__image {
   box-sizing: border-box;
   width: 100%;
+  filter: invert(40%) sepia(35%) saturate(1049%) hue-rotate(308deg) brightness(103%) contrast(93%);
 }
 
 .socialLinks__link {

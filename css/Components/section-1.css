@@ -16,6 +16,8 @@
 
 .wrapperSection-1 {
   display: grid;
+  max-width: 1200px;
+  margin:0 auto 0;
   font-weight: bolder;
   grid-template-columns: 40% 60%;
 }

@@ -1,0 +1,142 @@
+.footer {
+  background-color: #f1c50e;
+  padding:60px 30px;
+}
+
+.wrapperFooter {
+  max-width: 1200px;
+  display: grid;
+  grid-template-columns: 35% 30% 35%;
+  margin:0 auto;
+}
+
+.containerFooter {
+  padding:30px;
+}
+
+.footer__header {
+  margin:0;
+  font-size: 36px;
+  line-height: calc(36px*1.2);
+  font-family: 'Roboto',SansSerif;
+  font-weight: 700;
+  color: #db545a;
+}
+
+.footer__littleHeader:nth-child(1) {
+  margin: 0;
+}
+
+.footer__littleHeader {
+  margin:22px 0 0;
+  font-size: 20px;
+  line-height: calc(20px*1.2);
+  font-family: 'Roboto',SansSerif;
+  font-weight: 700;
+  color: #db545a;
+}
+
+.footer__paragraph {
+  margin:20px 0 0;
+  font-size: 18px;
+  line-height: calc(18px * 1.8);
+}
+
+.footer__paragraph_lessLineHeight {
+  line-height: calc(18px*1.6);
+}
+
+.footer__paragraph_bold {
+  font-style: italic;
+  font-weight: 700;
+}
+
+.footerList {
+  margin: 20px 0 0;
+  padding-left:18px;
+}
+
+.footerList__item {
+  position: relative;
+  font-size: 16px;
+  line-height: calc(16px*1.6);
+}
+
+.footerList__item::marker {
+  content: "✔ ";
+}
+
+.footerSocialLinks {
+  margin:32px 0 0;
+  width: 200px;
+  display: flex;
+  justify-self: end;
+  justify-content: space-between;
+}
+
+.footerSocialLinks__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 32px;
+  height: 32px;
+  background-color: #db545a;
+  border-radius: 32px;
+}
+
+.footerSocialLinks__image {
+  box-sizing: border-box;
+  width: 60%;
+  filter: invert(78%) sepia(20%) saturate(3369%) hue-rotate(2deg) brightness(107%) contrast(89%);
+}
+
+.footerSocialLinks__link {
+  z-index: 3;
+  position: absolute;
+  display: block;
+  width: inherit;
+  height: inherit;
+}
+
+.form {
+  margin-top:30px;
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+}
+
+.form__input {
+  border:none;
+  border-radius: 12px;
+  height:49px;
+  padding-left:16px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.form__input:nth-child(3) {
+  height:108px;
+}
+
+.form__button {
+  background-color: #db545a;
+  border: none;
+  border-radius: 12px;
+}
+
+.form__button:hover {
+  background-color: #e68387;
+}
+
+.form__buttonText {
+  color:white;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+
+
+
+
+

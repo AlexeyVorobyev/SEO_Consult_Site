@@ -6,7 +6,8 @@
 .wrapperSection-3 {
   display: grid;
   position: relative;
-  margin-top:74px;
+  max-width: 1200px;
+  margin:74px auto 0;
   grid-gap: 60px;
   grid-template-columns: repeat(3,1fr);
 }

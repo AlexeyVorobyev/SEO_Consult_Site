@@ -3,12 +3,14 @@
 }
 
 .wrapperSection-2 {
-  display: flex;
+  display:grid;
+  max-width: 1200px;
+  margin: auto;
+  grid-template-columns: 40% 60%;
 }
 
 .containerSection-2 {
   padding: 30px 30px 120px;
-  width:50%;
 }
 .containerSection-2__photocard {
   position: relative;
@@ -35,7 +37,10 @@
 }
 
 .containerSection-2__littleHeader {
+  letter-spacing: 1.5px;
   font-size: 18px;
+  font-family: 'Roboto',SansSerif;
+  font-weight: normal;
   margin:0;
 }
 

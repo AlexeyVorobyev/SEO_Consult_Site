@@ -25,11 +25,30 @@
 </head>
 
 <body class="page">
+<div class="panel">
+  <div class="panelContainer">
+    <button class="panel__closeButton" TYPE="button">
+      <img class="panel__closeButtonImg" alt="Exit" src="img/cross.png">
+    </button>
+    <nav class="navigation navigation_panel">
+      <div class="navigation__item navigation__item_panel">
+        <a class="navigation__link navigation__link_panel" href="">Main</a>
+      </div>
+      <div class="navigation__item navigation__item_panel">
+        <a class="navigation__link navigation__link_panel" href="">About us</a>
+      </div>
+      <div class="navigation__item navigation__item_panel">
+        <a class="navigation__link navigation__link_panel" href="">Contacts</a>
+      </div>
+    </nav>
+  </div>
+  <div class="panelContainer"></div>
+</div>
 <header class="header">
   <div class="logo">
     <img class="logo__image" src="img/logo.png" alt="LOGO">
   </div>
-  <div class="navigation">
+  <nav class="navigation">
     <div class="navigation__item">
       <a class="navigation__link navigation__link_active" href="">Main</a>
     </div>
@@ -39,7 +58,10 @@
     <div class="navigation__item">
       <a class="navigation__link" href="">Contacts</a>
     </div>
-  </div>
+  </nav>
+  <button class="mobileNavigation" type="button">
+    <img class="mobileNavigation_image" src="img/hamburger.png" alt="menu">
+  </button>
 </header>
 <section class="section-1">
   <img class="section-1__background-image" src="img/backgroundSection-1.jpg" alt="">

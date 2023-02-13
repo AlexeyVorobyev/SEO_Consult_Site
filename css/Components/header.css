@@ -50,3 +50,51 @@
 .navigation__link_active:hover {
   color: #1f8de6;
 }
+
+.mobileNavigation {
+  display: none;
+}
+
+@media screen and (max-width: 991px)  {
+  .navigation {
+    display: none;
+  }
+  .header {
+    padding: 0 24px 0;
+  }
+
+  .mobileNavigation {
+    display: block;
+    width: 24px;
+    height: 32px;
+    padding: 0;
+    background-color: white;
+    border: none;
+    object-fit: contain;
+    overflow: hidden;
+  }
+
+  .mobileNavigation_image {
+    box-sizing: border-box;
+  }
+
+  .mobileNavigation:focus .panel {
+    display: flex;
+  }
+
+  .mobileNavigation:hover .mobileNavigation_image {
+    filter: invert(43%) sepia(63%) saturate(1357%) hue-rotate(323deg) brightness(91%) contrast(88%);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header {
+    padding: 0 18px 0;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .header {
+    padding: 0 30px 0;
+  }
+}

@@ -1,5 +1,5 @@
 .section-3 {
-  padding:60px 30px 60px;
+  padding:63px 30px 63px;
   background-color: #db545a;
 }
 
@@ -8,7 +8,7 @@
   position: relative;
   max-width: 1200px;
   margin:74px auto 0;
-  grid-gap: 60px;
+  grid-gap: 63px;
   grid-template-columns: repeat(3,1fr);
 }
 
@@ -73,8 +73,6 @@
   height: 47px;
 }
 
-
-
 .card__button {
   background-color: #f1c50e;
   margin: auto auto 0;
@@ -103,4 +101,56 @@
 
 .card__button:hover .card__link{
   color: #f1c50e;
+}
+
+@media screen and (max-width: 991px) {
+  .section-3 {
+    padding: 63px 24px 63px;
+  }
+}
+
+@media screen and (max-width: 962px) {
+  .wrapperSection-3 {
+    grid-template-columns: repeat(2,1fr);
+  }
+
+  .card__header {
+    margin-top:110px
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .section-3 {
+    padding: 63px 18px 63px;
+  }
+}
+
+@media screen and (max-width: 649px) {
+  .card {
+    padding: 0 20px 32px;
+  }
+
+  .card__paragraph {
+    font-size: 16px;
+    line-height: calc(16px * 1.6);
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .wrapperSection-3 {
+    grid-template-columns: 1fr;
+  }
+
+  .section-3__header {
+    font-size: 36px;
+    line-height: calc(36px * 1.1);
+  }
+
+  .section-3__paragraph {
+    margin-top: 23px;
+  }
+
+  .wrapperSection-3 {
+    margin-top: 50px;
+  }
 }

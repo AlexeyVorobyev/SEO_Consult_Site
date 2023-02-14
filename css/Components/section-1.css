@@ -107,7 +107,14 @@
   }
 }
 
+@media screen and (max-width: 991px) {
+  .section-1 {
+    padding: 60px 24px;
+  }
+}
+
 @media screen and (max-width: 843px) {
+
   .containerSection-1__header {
     font-size: 30px;
     line-height: 36px;
@@ -120,6 +127,11 @@
 }
 
 @media screen and (max-width: 767px) {
+
+  .section-1 {
+    padding: 60px 24px 20px;
+  }
+
   .wrapperSection-1 {
     grid-template-columns: 100%;
   }

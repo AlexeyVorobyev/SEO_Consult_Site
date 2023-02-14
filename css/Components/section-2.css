@@ -12,6 +12,7 @@
 .containerSection-2 {
   padding: 30px 30px 120px;
 }
+
 .containerSection-2__photocard {
   position: relative;
   background-color: #db545a;
@@ -20,7 +21,13 @@
 }
 
 .containerSection-2__image {
-  display: block;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.containerSection-2__imageMobile {
+  display: none;
+  box-sizing: border-box;
   width: 100%;
 }
 
@@ -89,4 +96,49 @@
 
 .buttonSection-2__link:hover {
   color: #f1c50e;
+}
+
+@media screen and (max-width: 1122px) {
+  .containerSection-2 {
+    padding: 30px 25px 120px;
+  }
+  .wrapperSection-2 {
+    grid-template-columns: 50% 50%;
+  }
+
+  .containerSection-2__image {
+    display: none;
+  }
+
+  .containerSection-2__imageMobile {
+    display: block;
+  }
+
+  .containerSection-2__photocard {
+    padding:30px 30px 40px;
+  }
+
+  .containerSection-2 {
+    padding: 30px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .section-2 {
+    padding: 60px 24px 60px;
+  }
+
+  .containerSection-2__header {
+    font-size: 35px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .wrapperSection-2 {
+    grid-template-columns: 100%;
+  }
+
+  .section-2 {
+    padding:20px 24px;
+  }
 }
